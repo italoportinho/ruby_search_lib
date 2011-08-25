@@ -1,0 +1,3 @@
+class BingSearchEngine
+
+end

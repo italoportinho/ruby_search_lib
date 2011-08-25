@@ -1,0 +1,3 @@
+class YahooSearchEngine
+  
+end
