@@ -6,7 +6,7 @@ require_relative 'google_serp_scraper'
 require_relative 'bing_serp_scraper'
 
 class Serp
-  attr_reader  :searchEngine, :keyword, :total_results,:scraper, :current_page
+  attr_reader :scraper
 
   def initialize(searchEngine,keyword,max_results)
     case searchEngine
